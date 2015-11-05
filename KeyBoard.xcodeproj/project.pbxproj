@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1F221B151BEB03CF008614FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F221B141BEB03CF008614FF /* main.m */; };
 		1F221B181BEB03CF008614FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F221B171BEB03CF008614FF /* AppDelegate.m */; };
-		1F221B1B1BEB03CF008614FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F221B1A1BEB03CF008614FF /* ViewController.m */; };
 		1F221B1E1BEB03CF008614FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F221B1C1BEB03CF008614FF /* Main.storyboard */; };
 		1F221B201BEB03CF008614FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F221B1F1BEB03CF008614FF /* Images.xcassets */; };
 		1F221B231BEB03CF008614FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F221B211BEB03CF008614FF /* LaunchScreen.xib */; };
 		1F221B2F1BEB03CF008614FF /* KeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F221B2E1BEB03CF008614FF /* KeyBoardTests.m */; };
+		1F221B3D1BEB0A4E008614FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F221B3C1BEB0A4E008614FF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		1F221B141BEB03CF008614FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F221B161BEB03CF008614FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F221B171BEB03CF008614FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F221B191BEB03CF008614FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1F221B1A1BEB03CF008614FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F221B1D1BEB03CF008614FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F221B1F1BEB03CF008614FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F221B221BEB03CF008614FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1F221B281BEB03CF008614FF /* KeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F221B2D1BEB03CF008614FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F221B2E1BEB03CF008614FF /* KeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardTests.m; sourceTree = "<group>"; };
+		1F221B3B1BEB0A4E008614FF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F221B3C1BEB0A4E008614FF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				1F221B161BEB03CF008614FF /* AppDelegate.h */,
 				1F221B171BEB03CF008614FF /* AppDelegate.m */,
-				1F221B191BEB03CF008614FF /* ViewController.h */,
-				1F221B1A1BEB03CF008614FF /* ViewController.m */,
 				1F221B1C1BEB03CF008614FF /* Main.storyboard */,
+				1F221B3B1BEB0A4E008614FF /* ViewController.h */,
+				1F221B3C1BEB0A4E008614FF /* ViewController.m */,
 				1F221B1F1BEB03CF008614FF /* Images.xcassets */,
 				1F221B211BEB03CF008614FF /* LaunchScreen.xib */,
 				1F221B121BEB03CF008614FF /* Supporting Files */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F221B1B1BEB03CF008614FF /* ViewController.m in Sources */,
+				1F221B3D1BEB0A4E008614FF /* ViewController.m in Sources */,
 				1F221B181BEB03CF008614FF /* AppDelegate.m in Sources */,
 				1F221B151BEB03CF008614FF /* main.m in Sources */,
 			);
